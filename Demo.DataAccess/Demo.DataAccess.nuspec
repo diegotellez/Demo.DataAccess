@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Demo.DataAccess</id>
+    <version>1.0.0.2</version>
+    <title>MS Sql Server DataAccess</title>
+    <authors>Diego Tellez</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!--<projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>-->
+    <icon>icon.png</icon>
+    <description>Provides method to get Data from Sqlserver DataBase. Includes store procedure consulting as table or as any object</description>
+    <releaseNotes>Second Release.</releaseNotes>
+    <copyright>Diego Tellez</copyright>
+    <tags>SQLServer DataBase Connection Objects OCR</tags>
+  </metadata>
+  <files>
+    <file src="icon.png" target="" />
+  </files>
+</package>
+
+
+<!--
+
+
+
+cd C:\Users\DIEGO\source\repos\DiegoTellez\Demo.DataAccess\
+
+nuget spec Demo.DataAccess.csproj
+
+nuget pack
+
+
+-->
